@@ -4,6 +4,7 @@ pipeline {
     stage ('Build') {
       steps{
         echo "Building branch is : ${env.BRANCH_NAME}"
+        echo "Feature 2 pipeline" 
       }
     }
     stage ('Test') {
